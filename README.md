@@ -1,20 +1,20 @@
 # HCCR
 A Flux implementation for offline Handwritten Chinese Character Recognition
 
-# Requirements
+## Requirements
 + Flux
 + Images
 + BSON
 + JLD2
 + CuArrays
 
-# Get started
+## Get started
 1. Clone the repository
 `git clone https://github.com/afternone/HCCR.git`
 2. Download the `trained_model.bson` from [here](https://pan.baidu.com/s/1YP3_KdrrdWQxacU8eyUnXg) (access code: 47kh) and put it in the root directory `HCCR`
 
-# Usage
-## Command Line mode (PowerShell)
+## Usage
+### Command Line mode (PowerShell)
 Open the PowerShell and change to the directory `HCCR`
 + Single image
 ```
@@ -39,7 +39,7 @@ C:\image\06.png       记
 C:\image\07.png       使
 C:\image\08.png       命
 ```
-## REPL mode
+### REPL mode
 ```julia
 julia> include("test.jl")
 
@@ -57,7 +57,7 @@ image\07.png    使
 image\08.png    命
 julia>
 ```
-# Train your model
+## Train your model
 Download datasets `train.jld2` and `test.jld2` from [here](https://pan.baidu.com/s/1YP3_KdrrdWQxacU8eyUnXg) (access code: 47kh) and put them in `HCCR`.
 Then train your model as follows:
 ```julia
