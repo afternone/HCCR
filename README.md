@@ -14,14 +14,14 @@ A Flux implementation for offline Handwritten Chinese Character Recognition
 2. Download the trained model from [here](https://pan.baidu.com/s/1YP3_KdrrdWQxacU8eyUnXg) (access code: 47kh) and put it in the root directory `HCCR`
 
 # Usage
-<img src="image/01.png" width="64",alt="不">
-<img src="image/02.png" width="64",alt="忘">
-<img src="image/03.png" width="64",alt="初">
-<img src="image/04.png" width="64",alt="心">
-<img src="image/05.png" width="64",alt="牢">
-<img src="image/06.png" width="64",alt="记">
-<img src="image/07.png" width="64",alt="使">
-<img src="image/08.png" width="64",alt="命">
+<img src="image/01.png" width="64">
+<img src="image/02.png" width="64">
+<img src="image/03.png" width="64">
+<img src="image/04.png" width="64">
+<img src="image/05.png" width="64">
+<img src="image/06.png" width="64">
+<img src="image/07.png" width="64">
+<img src="image/08.png" width="64">
 
 
 ## Command Line mode (PowerShell)
