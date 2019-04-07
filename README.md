@@ -15,7 +15,7 @@ A Flux implementation for offline Handwritten Chinese Character Recognition
 
 # Usage
 <img src="https://github.com/afternone/HCCR/blob/master/image/01.png" width="200">
-<img src="image/01.png" width="200">
+<img src="image/01.png" width="64">
 ![image/01.png](https://github.com/afternone/HCCR/blob/master/image/01.png "不")
 
 
