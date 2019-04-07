@@ -11,24 +11,24 @@ A Flux implementation for offline Handwritten Chinese Character Recognition
 # Get started
 1. Clone the repository
 `git clone https://github.com/afternone/HCCR.git`
-2. Download the trained model from [here](https://pan.baidu.com/s/1YP3_KdrrdWQxacU8eyUnXg) (access code: 47kh) and put it in the root directory `HCCR`
+2. Download the `trained_model.bson` from [here](https://pan.baidu.com/s/1YP3_KdrrdWQxacU8eyUnXg) (access code: 47kh) and put it in the root directory `HCCR`
 
 # Usage
 ## Command Line mode (PowerShell)
 Open the PowerShell and change to the directory `HCCR`
 + Single image
-```julia
+```
 PS C:\HCCR> julia test.jl image/01.png
 image/01.png    不
 ```
 + Multiple images
-```powershell
+```
 PS C:\HCCR> julia test.jl image/01.png image/02.png
 image/01.png    不
 image/02.png    忘
 ```
 + All images in a directory
-```julia
+```
 PS C:\HCCR> julia test.jl (ls .\image\*.png).Fullname
 C:\image\01.png       不
 C:\image\02.png       忘
