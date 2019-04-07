@@ -22,7 +22,7 @@ PS C:\HCCR> julia test.jl image/01.png
 image/01.png    不
 ```
 + Multiple images
-```julia
+```powershell
 PS C:\HCCR> julia test.jl image/01.png image/02.png
 image/01.png    不
 image/02.png    忘
