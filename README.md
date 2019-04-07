@@ -63,3 +63,4 @@ Then train your model as follows:
 ```julia
 julia train.jl
 ```
+The accuracy of the `trained_model.bson` is 95.22%.
