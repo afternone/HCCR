@@ -8,9 +8,21 @@ A Flux implementation for offline Handwritten Chinese Character Recognition
 + JLD2
 + CuArrays
 
-# Usage
-## Clone the repository
+# Get started
+1. Clone the repository
 `git clone https://github.com/afternone/HCCR.git`
+2. Download the trained model from [here](https://pan.baidu.com/s/1YP3_KdrrdWQxacU8eyUnXg) (access code: 47kh) and put it in the root directory `HCCR`
+
+# Usage
+![image/01.png](https://github.com/afternone/HCCR/blob/master/image/01.png "不")
+![image/02.png](https://github.com/afternone/HCCR/blob/master/image/01.png "忘")
+![image/03.png](https://github.com/afternone/HCCR/blob/master/image/01.png "初")
+![image/04.png](https://github.com/afternone/HCCR/blob/master/image/01.png "心")
+![image/05.png](https://github.com/afternone/HCCR/blob/master/image/01.png "牢")
+![image/06.png](https://github.com/afternone/HCCR/blob/master/image/01.png "记")
+![image/07.png](https://github.com/afternone/HCCR/blob/master/image/01.png "使")
+![image/08.png](https://github.com/afternone/HCCR/blob/master/image/01.png "命")
+
 ## Command Line mode (PowerShell)
 Open the PowerShell and change to the directory HCCR
 + Single image
@@ -55,4 +67,8 @@ image\08.png    命
 julia>
 ```
 # Train your model
-TO DO
+Download datasets `train.jld2` and `test.jld2` and put them in `HCCR`.
+Then train your model as follows:
+```julia
+julia train.jl
+```
