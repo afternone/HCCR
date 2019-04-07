@@ -1,4 +1,6 @@
 *.jl.cov
 *.jl.*.cov
 *.jl.mem
+*.jld2
+*.bson
 deps/deps.jl
