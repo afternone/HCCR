@@ -14,16 +14,6 @@ A Flux implementation for offline Handwritten Chinese Character Recognition
 2. Download the trained model from [here](https://pan.baidu.com/s/1YP3_KdrrdWQxacU8eyUnXg) (access code: 47kh) and put it in the root directory `HCCR`
 
 # Usage
-<img src="image/01.png" width="64">
-<img src="image/02.png" width="64">
-<img src="image/03.png" width="64">
-<img src="image/04.png" width="64">
-<img src="image/05.png" width="64">
-<img src="image/06.png" width="64">
-<img src="image/07.png" width="64">
-<img src="image/08.png" width="64">
-
-
 ## Command Line mode (PowerShell)
 Open the PowerShell and change to the directory HCCR
 + Single image
@@ -49,7 +39,7 @@ C:\Users\han\Desktop\ML\HCCR\image\06.png       记
 C:\Users\han\Desktop\ML\HCCR\image\07.png       使
 C:\Users\han\Desktop\ML\HCCR\image\08.png       命
 ```
-##REPL mode
+## REPL mode
 ```julia
 julia> include("test.jl")
 
@@ -68,7 +58,7 @@ image\08.png    命
 julia>
 ```
 # Train your model
-Download datasets `train.jld2` and `test.jld2` and put them in `HCCR`.
+Download datasets `train.jld2` and `test.jld2` from [here](https://pan.baidu.com/s/1YP3_KdrrdWQxacU8eyUnXg) (access code: 47kh) and put them in `HCCR`.
 Then train your model as follows:
 ```julia
 julia train.jl
